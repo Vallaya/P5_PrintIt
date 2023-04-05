@@ -16,3 +16,12 @@ const slides = [
 		"tagLine":"Autocollants <span>avec découpe laser sur mesure</span>"
 	}
 ]
+const flecheGauche = document.querySelector (".arrow_left");
+const flecheDroite = document.querySelector (".arrow_right");
+
+flecheGauche.addEventListener("click", function() {
+	console.log ("fleche gauche cliquee");
+})
+flecheDroite.addEventListener("click", function() {
+	console.log ("fleche droite cliquee");
+})
